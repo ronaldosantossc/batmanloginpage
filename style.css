@@ -1,0 +1,65 @@
+body{
+  height: 100%;
+  color:white;
+  overflow: hidden;
+  margin: 0;
+  padding:0;
+  background-image: url(https://th.bing.com/th/id/R.aa6f8cef719b0a851a284cf6b2370d3b?rik=wlc2KfKrc2thUA&riu=http%3a%2f%2fwww.uneshddarann.com%2fwp-content%2fuploads%2f2019%2f10%2fBatman-Begins.jpg&ehk=FcOqsMymWy5zIsEo2yvBwLfwzbMdLZYCWHp78zhgH5U%3d&risl=&pid=ImgRaw&r=0);
+  background-size: 1550px;
+  font-family: 'Poppins';
+}
+section{
+  position: relative;
+  height:100vh;
+}
+.form-container{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+  width: 310px;
+  padding: 50px 30px;
+  border-radius: 10px;
+  box-shadow: 7px 7px 60px #000;
+}
+h1{
+  text-transform: uppercase;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 2em;
+}
+.control input{
+  width: 95%;
+  display: block;
+  padding: 10px;
+  color: #222;
+  border: none;
+  outline: none;
+  margin: 1em 0;
+  background: linear-gradient(rgba(95, 93, 93, 0.2),rgba(72, 70, 70, 0.2));
+  border-radius: 5px;
+}
+.control input[type="submit"]{
+  background: crimson;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  opacity: .7;
+  transition: opacity .3s ease;
+}
+.control input[type="submit"]:hover{
+  opacity: 1;
+}
+.link{
+  text-align: center;
+}
+.link a{
+  text-decoration: none;
+  color:peru;
+  opacity: .7;
+  transition: opacity .3s ease;
+}
+.control ::placeholder{
+  color: rgb(67, 63, 63);
+}
